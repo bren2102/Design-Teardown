@@ -62,7 +62,6 @@ nav {
   color: black;
   text-align: center;
   font-size: 30px;
-
 }
 
 .article {
@@ -72,8 +71,12 @@ nav {
   padding: 40px;
 }
 
-.pd-100{
+.pd-100 {
   padding-top: 120px;
+}
+
+article .author span {
+  text-decoration: underline;
 }
 
 .article .image {
@@ -111,6 +114,10 @@ nav {
   padding: 5px;
 }
 
+.membership {
+  border: white solid 1px;
+}
+
 .membership article {
   width: 80%;
   display: flex;
@@ -127,11 +134,11 @@ nav {
   width: 100%;
 }
 
-.membership-left ul{
+.membership-left ul {
   padding: 20px 0 20px 50px;
 }
 
-.membership-left button{
+.membership-left button {
   width: 200px;
   height: 50px;
   background-color: rgba(216, 191, 216, 0);
@@ -148,4 +155,104 @@ nav {
   border-radius: 5px;
   margin-left: 80px;
   transform: rotate(-15deg);
+}
+
+.latest-posts {
+  display: grid;
+  grid-template: repeat(5, auto) / repeat(4, 1fr);
+}
+
+.smashing .title {
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.smashing button {
+  background-color: rgba(127, 255, 212, 0);
+  border: 1px solid white;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  margin: 20px 0;
+}
+
+.latest-posts article {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  padding: 30px;
+  border: 1px solid white;
+  position: relative;
+}
+
+.latest-posts article .title {
+  font-size: 20px;
+  text-decoration: underline;
+  padding: 10px 0;
+}
+
+.latest-posts article .date {
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.latest-posts article button {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid white;
+  padding: 20px 30px;
+  color: white;
+  align-self: flex-end;
+  background-color: rgba(175, 175, 175, 0);
+  outline: none;
+}
+
+.latest-posts article .author {
+  padding: 10px 0;
+}
+
+.supports {
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 100;
+}
+
+.smashing {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 1px solid white;
+}
+
+.smashing .image {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  margin: 10px auto;
+}
+
+.smashing .body {
+  padding: 10px 0;
+  font-size: 13px;
+  text-align: center;
+}
+
+.smashing .sign-link {
+  font-size: 12px;
+}
+
+.smashing .sign-link a {
+  color: white;
+}
+
+.latest-footer {
+  grid-column: span 4;
+  text-align: center;
+  padding: 40px 0;
+  text-decoration: underline;
 }
