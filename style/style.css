@@ -256,3 +256,71 @@ article .author span {
   padding: 40px 0;
   text-decoration: underline;
 }
+
+.feature {
+  width: 100%;
+  text-align: center;
+  border: white 1px solid;
+  padding-top: 30px;
+}
+
+.feature span {
+  width: 40%;
+  margin: 15px auto;
+  font-size: 20px;
+}
+
+.feature h2{
+  width: 40%;
+  margin: 30px auto;
+  font-size: 30px;
+}
+
+.feature a {
+  color: white;
+}
+
+.feature p {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.feature button {
+  border: white 1px solid;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(216, 191, 216, 0);
+  color: white;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.feature div {
+  background-color: black;
+  height: 400px;
+  width: 400px;
+  margin: 30px auto;
+}
+
+.community-links {
+  display: grid;
+  grid-template: repeat(5, auto) / 1fr 1fr;
+}
+
+.community-profile-1 {
+  grid-column: span 2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+#img-1 {
+  height: 80px;
+  width: 80px;
+  transform: rotate(-15deg);
+  background-color: black;
+}
