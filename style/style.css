@@ -376,10 +376,30 @@ article .author span {
 .content-table {
   display: flex;
   border: 1px solid white;
+  padding: 20px 40px;
 }
 
 .content-table-left {
   flex: 1;
+}
+
+.content-table-left h2 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+.content-table-left button {
+  border: 1px white solid;
+  color: white;
+  background-color: rgba(216, 191, 216, 0);
+  width: 200px;
+  height: 40px;
+  font-size: 19px;
+}
+
+.content-table-left .content {
+  font-size: 19px;
+  margin-bottom: 25px;
 }
 
 .content-table-right {
@@ -387,4 +407,29 @@ article .author span {
   height: 200px;
   background-color: black;
   transform: rotate(-15deg);
+  margin: 25px;
+}
+
+.curated-posts {
+  display: flex;
+}
+
+.curated-posts ul {
+  width: 25%;
+  padding: 25px;
+  height: 500px;
+  border: 1px solid white;
+}
+
+.curated-posts li {
+  margin-left: 35px;
+}
+
+.curated-posts h2 {
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.newsketter {
+  
 }
