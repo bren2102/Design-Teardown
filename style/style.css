@@ -313,14 +313,78 @@ article .author span {
 .community-profile-1 {
   grid-column: span 2;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
+  padding: 40px 30px;
+  border: 1px solid white;
 }
 
 #img-1 {
-  height: 80px;
-  width: 80px;
+  height: 150px;
+  width: 150px;
+  margin: 0 30px;
   transform: rotate(-15deg);
   background-color: black;
+}
+
+.community-profile-1 .title-text {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.community-profile-1 .title-text span {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.community-profile {
+  display: flex;
+  padding: 30px;
+  border: 1px solid white;
+}
+
+.community-profile .image {
+  width: 50px;
+  height: 50px;
+  transform: rotate(-15deg);
+  background-color: black;
+  margin: 0 30px;
+}
+
+.community-profile .body {
+  flex: 1;
+}
+
+.community-profile .author {
+  font-family: 'Concert One', cursive;
+  font-size: 12px;
+}
+
+.community-profile .title {
+  font-family: 'Concert One', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.community-profile .content span {
+  font-weight: 100;
+}
+
+.community-footer {
+  grid-column: span 2;
+}
+
+.content-table {
+  display: flex;
+  border: 1px solid white;
+}
+
+.content-table-left {
+  flex: 1;
+}
+
+.content-table-right {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  transform: rotate(-15deg);
 }
