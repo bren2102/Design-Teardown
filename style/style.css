@@ -24,6 +24,10 @@ nav {
   list-style: none;
 }
 
+.title {
+  font-size: 30px;
+}
+
 .header-li {
   border: white 1px solid;
   text-align: center;
@@ -51,6 +55,85 @@ nav {
   display: grid;
   grid-template: 1fr 1fr / 1fr 1fr;
   position: relative;
+}
+
+footer p span {
+  display: block;
+}
+
+.feature span {
+  width: 40%;
+  margin: 15px auto;
+  font-size: 20px;
+}
+
+.feature a {
+  color: white;
+}
+
+.feature button {
+  border: white 1px solid;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: rgba(216, 191, 216, 0);
+  color: white;
+  margin-top: 30px;
+  font-size: 15px;
+}
+
+.community-profile .author {
+  font-family: 'Concert One', cursive;
+  font-size: 12px;
+}
+
+.community-profile .title {
+  font-family: 'Concert One', cursive;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+.content-table-left button {
+  border: 1px white solid;
+  color: white;
+  background-color: rgba(216, 191, 216, 0);
+  width: 200px;
+  height: 40px;
+  font-size: 19px;
+}
+
+.posts-footer a {
+  color: white;
+  font-weight: 700;
+}
+
+footer ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+footer p {
+  padding: 20px 0;
+}
+
+.footet-footer a {
+  color: white;
+  padding: 20px 10px;
+}
+
+footer .image {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 1px solid white;
+  position: absolute;
+  bottom: 30px;
+  left: 100px;
 }
 
 .articles h2 {
@@ -100,10 +183,6 @@ article .author span {
   display: flex;
   justify-content: start;
   align-items: center;
-}
-
-.title {
-  font-size: 30px;
 }
 
 .article .title {
@@ -198,6 +277,15 @@ article .author span {
   font-size: 12px;
 }
 
+.newsletter button {
+  color: white;
+  background-color: rgba(0, 0, 255, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px 100px;
+  margin: 30px 0;
+}
+
 .latest-posts article button {
   position: absolute;
   bottom: 30px;
@@ -264,20 +352,15 @@ article .author span {
   padding-top: 30px;
 }
 
-.feature span {
-  width: 40%;
-  margin: 15px auto;
+footer ul li {
   font-size: 20px;
+  padding: 0 30px;
 }
 
-.feature h2{
+.feature h2 {
   width: 40%;
   margin: 30px auto;
   font-size: 30px;
-}
-
-.feature a {
-  color: white;
 }
 
 .feature p {
@@ -285,17 +368,6 @@ article .author span {
   margin: 0 auto;
   margin-top: 30px;
   font-size: 20px;
-}
-
-.feature button {
-  border: white 1px solid;
-  width: 400px;
-  height: 40px;
-  border-radius: 5px;
-  background-color: rgba(216, 191, 216, 0);
-  color: white;
-  margin-top: 30px;
-  font-size: 15px;
 }
 
 .feature div {
@@ -353,18 +425,6 @@ article .author span {
   flex: 1;
 }
 
-.community-profile .author {
-  font-family: 'Concert One', cursive;
-  font-size: 12px;
-}
-
-.community-profile .title {
-  font-family: 'Concert One', cursive;
-  font-size: 20px;
-  font-weight: bold;
-  padding: 20px 0;
-}
-
 .community-profile .content span {
   font-weight: 100;
 }
@@ -388,15 +448,6 @@ article .author span {
   margin-bottom: 25px;
 }
 
-.content-table-left button {
-  border: 1px white solid;
-  color: white;
-  background-color: rgba(216, 191, 216, 0);
-  width: 200px;
-  height: 40px;
-  font-size: 19px;
-}
-
 .content-table-left .content {
   font-size: 19px;
   margin-bottom: 25px;
@@ -414,7 +465,7 @@ article .author span {
   display: flex;
 }
 
-.curated-posts ul {
+.curated-posts div {
   width: 25%;
   padding: 25px;
   height: 500px;
@@ -455,15 +506,6 @@ article .author span {
   margin: 0 auto;
 }
 
-.newsletter button {
-  color: white;
-  background-color: rgba(0, 0, 255, 0);
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 20px 100px;
-  margin: 30px 0;
-}
-
 #footer-newsletter {
   padding-bottom: 20px;
   font-size: 15px;
@@ -479,37 +521,10 @@ article .author span {
   border: 1px solid white;
 }
 
-.posts-footer a {
-  color:white;
-  font-weight: 700;
-}
-
 footer {
   text-align: center;
   padding: 30px 0;
   position: relative;
-}
-
-footer ul {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 90%;
-  margin: 0 auto;
-  padding: 30px 0;
-}
-
-footer ul li {
-  font-size: 20px;
-  padding: 0 30px;
-}
-
-footer p span {
-  display: block;
-}
-
-footer p {
-  padding: 20px 0;
 }
 
 .footet-footer {
@@ -517,17 +532,6 @@ footer p {
   margin: 0 auto;
 }
 
-.footet-footer a {
-  color: white;
-  padding: 20px 10px;
-}
-
-footer .image {
-  width: 100px;
-  height: 100px;
-  background-color: black;
-  border: 1px solid white;
-  position: absolute;
-  bottom: 30px;
-  left: 100px;
+h6 {
+  display: none;
 }
