@@ -1,0 +1,24 @@
+{
+  "name": "DESIGN-TEARDOWN",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bren2102/Design-Teardown.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bren2102/Design-Teardown/issues"
+  },
+  "homepage": "https://github.com/bren2102/Design-Teardown#readme",
+  "devDependencies": {
+    "stylelint": "^13.0.0",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+}
